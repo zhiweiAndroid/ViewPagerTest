@@ -16,8 +16,7 @@ public class LeftFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        inflater.inflate(R.layout.fragment_left,container,false);
-
-        return super.onCreateView(inflater, container, savedInstanceState);
+        View left = inflater.inflate(R.layout.fragment_left, container, false);
+        return left;
     }
 }
